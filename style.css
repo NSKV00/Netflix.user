@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #161616;
+    color: #f6f0f0;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    padding: 32px;
+}
+header h1 {
+    color: #910e0e;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 70vh;
+    gap: 32px;
+    width: 90%;
+}
+main h2 {
+    font-size: 62px;
+    font-weight: 400;
+
+}
+main ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+ul li img {
+    width: 100%;
+    border: 2px solid #363535;
+}
+li p {
+    color: #514e4e;
+    font-weight: 600;
+}
+button {
+    border: 2px solid #514e4e;
+    color: #514e4e;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+button:hover{
+    transform: scale(1.025);
+}
+ul li{
+    cursor: pointer;
+    transition: all .5s ease;
+}
+ul li:hover{
+    transform: scale(1.025);
+}
